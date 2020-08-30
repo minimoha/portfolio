@@ -42,6 +42,10 @@ p {
   text-transform: uppercase;
 }
 
+.navigation {
+    display: none;
+}
+
 .btn {
   display: inline-block;
   color: #fff;
@@ -107,7 +111,7 @@ p {
       rgba(126, 213, 111, 0.8),
       rgba(40, 180, 131, 0.8)
     ),
-    url("../img/codecode.jpg");
+    url("../img/articleocw-5d07e6b3790af.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -266,7 +270,7 @@ p {
         rgba(126, 213, 111, 0.8),
         rgba(40, 180, 131, 0.8)
       ),
-      url("../img/codecode.jpg");
+      url("../img/articleocw-5d07e6b3790af.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
