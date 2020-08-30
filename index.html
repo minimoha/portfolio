@@ -12,7 +12,10 @@
       crossorigin="anonymous"
     />
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -20,38 +23,69 @@
       media="screen and (max-width: 768px)"
       href="./css/mobile.css"
     />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 500px)"
+      href="./css/small.css"
+    />
     <title>Me</title>
   </head>
-  <body>
-
+  <body id="home">
     <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
 
-        <div class="navigation__background">&nbsp;</div>
+      <div class="navigation__background">&nbsp;</div>
 
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
-                </ul>
-        </nav>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about-me" class="navigation__link"
+              ><span>01</span>About</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link"
+              ><span>02</span>Projects</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" class="navigation__link"><span>03</span>Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#moments" class="navigation__link"
+              ><span>04</span>Moments</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span>05</span>Contact</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#testimonial" class="navigation__link"
+              ><span>06</span>Testimonials</a
+            >
+          </li>
+        </ul>
+      </nav>
     </div>
     <!-- Navbar -->
     <nav id="navbar">
-        <h1 class="logo text">Muhammed's CV</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#what">What</a></li>
-          <li><a href="#who">Who</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <h1 class="logo text">Muhammed</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#moments">Moments</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+      </ul>
     </nav>
 
     <!-- Header: Showcase -->
@@ -61,12 +95,21 @@
           <img src="./img/learning.jpg" alt="myPic" />
         </div>
         <p class="lead">Muhammed Adegbola</p>
-        <a href="#what" class="btn">Read More</a>
+        <p class="lead-skill">Frontend Developer</p>
+        <div class="button">
+          <a href="#what" class="btn">View CV</a>
+          <a href="#contact" class="btn">Hire me</a>
+        </div>
       </div>
     </header>
 
     <div class="icons">
-      <a href="https://facebook.com/madegbola1" target="_blank" class="icon" title="Connect with me on facebook">
+      <a
+        href="https://facebook.com/madegbola1"
+        target="_blank"
+        class="icon"
+        title="Connect with me on facebook"
+      >
         <i class="fa fa-facebook"></i>
       </a>
 
@@ -83,123 +126,284 @@
       </a>
     </div>
 
-    <section>
-        
-            <div class="about">
-                <h2>About</h2>
-                <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est cupiditate suscipit velit sequi nisi aliquid debitis numquam, natus tempore ex earum officiis aperiam unde quae placeat deleniti accusantium esse! Error rerum, ut voluptatum, minus reprehenderit aliquid illum explicabo asperiores velit quaerat magni provident cum dicta labore cupiditate voluptas rem.
-            </p>
-        </div>
+    <section class="about-me">
+      <h2>About</h2>
+      <div class="about" id="about-me">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          est cupiditate suscipit velit sequi nisi aliquid debitis numquam,
+          natus tempore ex earum officiis aperiam unde quae placeat deleniti
+          accusantium esse! Error rerum, ut voluptatum, minus reprehenderit
+          aliquid illum explicabo asperiores velit quaerat magni provident cum
+          dicta labore cupiditate voluptas rem.
+        </p>
+      </div>
     </section>
 
-    <section class="proj">
-        <h2>Projects</h2>
-        <div class="projects">
-            
-
-            <div class="project">
-                <div class="project-img"><img src="./img/learning.jpg" alt="Project"></div>
-                <div class="project-body">
-                    <h3>Project Topic</h3>
-                    <br>
-                    <h4>Technology:</h4>
-                    <p>Html, CSS</p>
-                    <a href="" class="btn">Github Link</a>
-                </div>
+    <section class="proj" id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <div class="project-img">
+            <img src="./img/proj-1.png" alt="Project" />
+          </div>
+          <div class="project-body">
+            <h3>Project Topic</h3>
+            <br />
+            <h4>Technology:</h4>
+            <p>Html, CSS</p>
+            <div class="button">
+              <a href="" class="btn">See Project</a>
+              <a href="" class="btn">Github Link</a>
             </div>
-
-            <div class="project">
-                <div class="project-img"><img src="./img/learning.jpg" alt="Project"></div>
-                <div class="project-body">
-                    <h3>Project Topic</h3>
-                    <br>
-                    <h4>Technology:</h4>
-                    <p>Html, CSS</p>
-                    <a href="" class="btn">Github Link</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-img"><img src="./img/learning.jpg" alt="Project"></div>
-                <div class="project-body">
-                    <h3>Project Topic</h3>
-                    <br>
-                    <h4>Technology:</h4>
-                    <p>Html, CSS</p>
-                    <a href="" class="btn">Github Link</a>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="project">
+          <div class="project-img">
+            <img src="./img/proj-2.png" alt="Project" />
+          </div>
+          <div class="project-body">
+            <h3>Project Topic</h3>
+            <br />
+            <h4>Technology:</h4>
+            <p>Html, CSS</p>
+            <div class="button">
+              <a href="" class="btn">See Project</a>
+              <a href="" class="btn">Github Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img">
+            <img src="./img/proj-3.png" alt="Project" />
+          </div>
+          <div class="project-body">
+            <h3>Project Topic</h3>
+            <br />
+            <h4>Technology:</h4>
+            <p>Html, CSS</p>
+            <div class="button">
+              <a href="" class="btn">See Project</a>
+              <a href="" class="btn">Github Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-row">
-                <div class="skill">
-                    <div class="row">
-                        <div>jknhjk</div>
-                        <div> 62 jhnjknjk</div>
-                    </div>
-                    <div class="row2">
-                        <div></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="row">
-                        <div>jknhjk</div>
-                        <div> 62 jhnjknjk</div>
-                    </div>
-                    <div class="row2">
-                        <div></div>
-                    </div>
-                </div>
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-row">
+          <div class="skill">
+            <div class="row">
+              <div>HTML</div>
+              <div>85%</div>
             </div>
+            <div class="row2">
+              <div></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="row">
+              <div>CSS</div>
+              <div>60%</div>
+            </div>
+            <div class="row3">
+              <div></div>
+            </div>
+          </div>
         </div>
+
+        <div class="skill-row">
+          <div class="skill">
+            <div class="row">
+              <div>JS</div>
+              <div>40%</div>
+            </div>
+            <div class="row4">
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact-me">
+    <section class="gallery-container" id="moments">
+      <h2>Moments</h2>
+      <section class="gallery composition">
+        <figure class="gallery__item gallery__item--1 composition__photo">
+          <img src="img/gal-1.jpg" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--2 composition__photo">
+          <img src="img/gal-2.jpg" alt="Gallery image 2" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--3 composition__photo">
+          <img src="img/gal-3.jpg" alt="Gallery image 3" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--4 composition__photo">
+          <img src="img/gal-4.jpg" alt="Gallery image 4" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--5 composition__photo">
+          <img src="img/gal-5.jpg" alt="Gallery image 5" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--6 composition__photo">
+          <img src="img/gal-6.jpg" alt="Gallery image 6" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--7 composition__photo">
+          <img src="img/gal-7.jpg" alt="Gallery image 7" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--8 composition__photo">
+          <img src="img/gal-8.jpg" alt="Gallery image 8" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--9 composition__photo">
+          <img src="img/gal-9.jpg" alt="Gallery image 9" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--10 composition__photo">
+          <img
+            src="img/gal-10.jpg"
+            alt="Gallery image 10"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--11 composition__photo">
+          <img
+            src="img/gal-11.jpg"
+            alt="Gallery image 11"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--12 composition__photo">
+          <img
+            src="img/gal-12.jpg"
+            alt="Gallery image 12"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--13 composition__photo">
+          <img
+            src="img/gal-13.jpg"
+            alt="Gallery image 13"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--14 composition__photo">
+          <img
+            src="img/gal-14.jpg"
+            alt="Gallery image 14"
+            class="gallery__img"
+          />
+        </figure>
+      </section>
+    </section>
+
+    <section id="testimonial">
+      <h2>Testimonials</h2>
+      <div class="testimonial-container">
+        <div class="testimonials">
+          <div class="testimonial-img">
+            <img src="./img/moah.jpg" alt="Person" />
+          </div>
+          <div class="testimonial-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+            eligendi assumenda excepturi fuga reiciendis. Doloribus commodi hic
+            nulla voluptatum explicabo? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Doloribus velit rerum cupiditate nulla qui unde
+            repellat dolor ex repudiandae fugit odio eos mollitia beatae in,
+            debitis, tenetur corporis laboriosam voluptas?
+          </div>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial-img">
+            <img src="./img/moah.jpg" alt="Person" />
+          </div>
+          <div class="testimonial-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+            eligendi assumenda excepturi fuga reiciendis. Doloribus commodi hic
+            nulla voluptatum explicabo? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Optio velit molestias, tempore unde, ullam,
+            laudantium nostrum eaque adipisci suscipit doloremque vero
+            recusandae rerum autem! Temporibus, porro dicta! Natus, atque rem?
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <section id="contact-me">
         <div class="contact contact-me">
-            <h2 class="title-head">Contact</h2>
-            <div>
-                <form action="#">
-                    <input class="form" type="email" placeholder="Email">
-                    <input class="form" type="text" placeholder="Subject">
-                    <textarea class="textarea" name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+          <h2 class="title-head">Contact</h2>
+          <div>
+            <form action="#">
+              <input class="form" type="email" placeholder="Email" />
+              <input class="form" type="text" placeholder="Subject" />
+              <textarea
+                class="textarea"
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter your message"
+              ></textarea>
 
-                    <input class="btn" type="button" value="Send message">
-                </form>
-            </div>
+              <input class="btn" type="button" value="Send message" />
+            </form>
+          </div>
         </div>
+      </section>
     </section>
 
     <footer class="footer">
-        <div id="footer">
-            <a href="https://facebook.com/madegbola1" target="_blank" class="icon" title="Connect with me on facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
-      
-            <a href="https://linkedin.com/in/madegbola" target="_blank" class="icon">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-      
-            <a href="https://twitter.com/minimoha" target="_blank" class="icon">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-      
-            <a href="https://github.com/minimoha" target="_blank" class="icon">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-          </div>
-        <p>&copy; All Right Reserved</p>
+      <div id="footer">
+        <a
+          href="https://facebook.com/madegbola1"
+          target="_blank"
+          class="icon"
+          title="Connect with me on facebook"
+        >
+          <i class="fa fa-facebook"></i>
+        </a>
+
+        <a
+          href="https://linkedin.com/in/madegbola"
+          target="_blank"
+          class="icon"
+        >
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://twitter.com/minimoha" target="_blank" class="icon">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://github.com/minimoha" target="_blank" class="icon">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p>&copy; All Right Reserved</p>
     </footer>
 
-     <!-- JQuery CDN -->
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./js/main.js"></script>
   </body>

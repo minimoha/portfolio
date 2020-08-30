@@ -1,0 +1,97 @@
+.navigation {
+  display: block;
+}
+
+.sticky {
+  visibility: hidden;
+}
+
+.header-content a {
+    display: inline-block;
+    margin: 2rem 1rem;
+    padding: .5rem 1rem;
+}
+
+.skills {
+  padding: 1rem 2rem;
+}
+
+.skills-container {
+  padding: 5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.2rem rgba(194, 189, 189, 0.5);
+}
+
+.skill-row .skill {
+  width: auto;
+}
+
+.projects {
+  text-align: center;
+  display: block;
+  padding: 0 2rem;
+}
+
+.project {
+  margin: 2rem auto;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.proj h2, .about-me h2 {
+    text-align: center;
+    margin: 1rem 0;
+    margin-bottom: 0;
+  }
+  
+
+.about {
+  margin: 2rem 2rem;
+  padding: 2rem;
+}
+
+.navigation__link:link,
+.navigation__link:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    #fff 50%
+  );
+  background-size: 220%;
+  transition: all 0.4s;
+}
+.navigation__link:link span,
+.navigation__link:visited span {
+  margin-right: 0 .5rem;
+  display: inline-block;
+}
+
+.gallery-container {
+    padding: 2rem 0;
+}
+
+.gallery-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-body a {
+    padding: .5rem;
+    margin-right:1rem;
+}
+
+.testimonial-container .testimonials {
+    display: block;
+}
+
+.testimonial-container .testimonial-text {
+    padding: 1rem;
+}

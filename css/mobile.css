@@ -1,47 +1,27 @@
-@media only screen and (max-width: 56.25em) {
-  .navigation {
+.navigation {
     display: block;
   }
-
+  
   .sticky {
     visibility: hidden;
   }
-  .skills {
-    padding: 1rem 2rem;
-  }
 
-  .skills-container {
-    padding: 1rem;
-    border-radius: 0.3rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem 0.2rem rgba(194, 189, 189, 0.5);
-  }
-
-  .skill-row .skill {
-    width: auto;
-  }
-
-  .projects {
-    text-align: center;
-    display: block;
-  }
-
-  .project {
-    margin: 3rem 2rem;
-    padding: 1rem;
-    padding-bottom: 2rem;
-  }
+  .header-content a {
+    display: inline-block;
+    margin: 2rem 1rem;
 }
+
 .about {
-  margin: 2rem 5rem;
-  padding: 2rem;
-}
+    margin: 2rem 5rem;
+    padding: 2rem;
+  }
 
 #navbar ul {
   display: none;
 }
 
 .skills {
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
 }
 
 .skill-row {
@@ -73,19 +53,20 @@
   color: #fff;
 }
 
-.proj h2 {
+.proj h2, .about-me h2 {
   text-align: center;
-  margin-top: 5rem;
+  margin: 3rem 0;
+  margin-bottom: 0;
 }
 
 .projects {
   text-align: center;
   display: block;
-  padding: 2rem 3rem;
+  padding: 2rem 5rem;
 }
 
 .project {
-  margin: 3rem auto;
+  margin: 2rem auto;
   padding: 1rem;
   padding-bottom: 2rem;
 }
@@ -187,7 +168,7 @@
 }
 
 .navigation__item {
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 .navigation__link:link,
@@ -295,4 +276,10 @@
   .navigation__background {
     display: none;
   }
+}
+
+
+.gallery-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
 }
