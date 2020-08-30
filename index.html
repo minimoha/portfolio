@@ -347,11 +347,11 @@
         <div class="contact contact-me">
           <h2 class="title-head">Contact</h2>
           <div>
-            <form action="#">
-              <input class="form" type="email" placeholder="Email" />
-              <input class="form" type="number" placeholder="Phone Number" />
-              <input class="form" type="text" placeholder="Address" />
-              <input class="form" type="text" placeholder="Subject" />
+            <form name="contact" method="POST" data-netlify="true">
+              <input class="form" name="email" type="email" placeholder="Email" />
+              <input class="form" name="phoneNumber" type="number" placeholder="Phone Number" />
+              <input class="form" name="address" type="text" placeholder="Address" />
+              <input class="form" name="subject" type="text" placeholder="Subject" />
               <textarea
                 class="textarea"
                 name="message"
